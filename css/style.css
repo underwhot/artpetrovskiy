@@ -1471,3 +1471,15 @@ canvas {
             transform: rotate(-90deg) translateY(5px);
   }
 }
+
+@media (max-height: 25em) {
+  .page {
+    position: relative;
+  }
+}
+
+@media (max-height: 30em) {
+  .hero__top {
+    padding-top: 5%;
+  }
+}
