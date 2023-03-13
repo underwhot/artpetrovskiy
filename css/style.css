@@ -437,6 +437,27 @@ canvas {
   position: relative;
 }
 
+.vpn {
+  position: relative;
+}
+
+.vpn::after {
+  content: "Открывать с VPN";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  font-size: 0.75rem;
+  background-color: rgba(255, 255, 255, 0.25);
+  display: block;
+  padding: 0.1875rem 0.375rem;
+  border-bottom-right-radius: 0.3125rem;
+  border-bottom-left-radius: 0.3125rem;
+  pointer-events: none;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
 .hero__container {
   min-height: 100vh;
   text-align: center;
