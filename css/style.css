@@ -709,10 +709,18 @@ body {
 .hero__title {
   line-height: 140%;
   font-size: 2rem;
+  opacity: 0;
 }
 
 .hero__title:not(:last-child) {
   margin-bottom: 1.875rem;
+}
+
+._watcher-view .hero__title {
+  -webkit-transition: opacity 1s ease 0s;
+  -o-transition: opacity 1s ease 0s;
+  transition: opacity 1s ease 0s;
+  opacity: 1;
 }
 
 .hero__subtitle {
