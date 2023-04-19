@@ -4258,6 +4258,10 @@
             };
         }));
         const translation = {
+            "page-title": {
+                ru: "Артём Петровский | Портфолио",
+                en: "Artem Petrovskiy | Portfolio"
+            },
             "header-link-1": {
                 ru: "Мои работы",
                 en: "My works"
