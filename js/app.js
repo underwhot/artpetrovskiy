@@ -4516,7 +4516,7 @@
             },
             "about-p-2": {
                 ru: "Мне 29 лет. На данный момент я живу в Киеве, столице Украины. У меня более пяти лет опыта в дизайне и более трех лет в разработке и создании веб-приложений. Почему именно программирование? Все элементарно - мне это нравится. Дизайнерский взгляд позволяет мне создавать красивые интерфейсы, анимации, а технические знания - реализовывать проекты.",
-                en: "I am 29 years old. At the moment I live in Kyiv, the capital of Ukraine. I have more than five years of design experience and more than three years in developing and creating web applications. Why programming? All elementary - I like it. The designer's eye allows me to create beautiful interfaces, animations, and technical knowledge - to implement projects."
+                en: "I am 29 years old. At the moment I live in Kyiv, the capital of Ukraine. I have more than five years of design experience and more than three years in development and creating web applications. Why programming? All elementary - I like it. The designer's eye allows me to create beautiful interfaces, animations, and technical knowledge - to implement projects."
             },
             "about-p-3": {
                 ru: "Пишите мне в мессенджере или по почте. Буду рад любому обращению по этой теме. До связи!",
