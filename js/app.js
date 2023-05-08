@@ -4290,6 +4290,46 @@
                 ru: "Мои работы",
                 en: "My works"
             },
+            "work-card-7-title": {
+                ru: 'Верстка главной страницы интернет магазина парфюмерии "Perfume Shop"',
+                en: 'Layout of the main page for the online perfume shop "Perfume Shop"'
+            },
+            "work-card-7-list-1": {
+                ru: "Двухуровневое меню сайта",
+                en: "Two-level site menu"
+            },
+            "work-card-7-list-2": {
+                ru: "Эффект появления фиксированного подвала сайта",
+                en: "Fixed footer reveal effect"
+            },
+            "work-card-7-list-3": {
+                ru: "Анимация и мобильная адаптация",
+                en: "Animation and mobile adaptation"
+            },
+            "work-card-7-list-4": {
+                ru: "Карусель с карточками товаров",
+                en: "Carousel with product cards"
+            },
+            "work-card-7-list-5": {
+                ru: "Возможность выбора языка и валюты",
+                en: "Language and currency selection option"
+            },
+            "work-card-7-list-6": {
+                ru: "Адаптивные спойлеры в подвале сайта в мобильной верии",
+                en: "Adaptive spoilers in the footer of the site in mobile version"
+            },
+            "work-card-7-list-7": {
+                ru: "Скрытие шапки сайта при скролле страницы",
+                en: "Hiding the header when the page is scrolling"
+            },
+            "work-card-7-list-8": {
+                ru: "Оптимизация загрузки изображений (lazy loading)",
+                en: "Optimize image loading (lazy loading)"
+            },
+            "work-card-7-link": {
+                ru: "Перейти на сайт",
+                en: "Go live"
+            },
             "work-card-6-title": {
                 ru: 'Разработка многостраничного сайта для реклмно-производственной компании "МосТехВывеска"',
                 en: 'Development of a multi-page website for the advertising and production company "Mostehviveska"'
