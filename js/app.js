@@ -4290,6 +4290,42 @@
                 ru: "Мои работы",
                 en: "My works"
             },
+            "work-card-8-title": {
+                ru: 'Верстка главной страницы ресторана японской кухни "Sushi Dream"',
+                en: 'Home page layout of japanese cuisine restaurant "Sushi Dream"'
+            },
+            "work-card-8-list-1": {
+                ru: "Интерактивное боковое меню",
+                en: "Interactive side menu"
+            },
+            "work-card-8-list-2": {
+                ru: "Выпадающий список номеров и выбора языка",
+                en: "Drop-down list of numbers and language selection"
+            },
+            "work-card-8-list-3": {
+                ru: "Нестандартная сетка расположения элеметов",
+                en: "Non-standard grid layout of elements"
+            },
+            "work-card-8-list-4": {
+                ru: "Карусель с карточками товаров",
+                en: "Carousel with product cards"
+            },
+            "work-card-8-list-5": {
+                ru: "Анимация и мобильная адаптация",
+                en: "Animation and mobile adaptation"
+            },
+            "work-card-8-list-6": {
+                ru: "Анимация радиуса доставки на карте",
+                en: "Delivery radius animation on the map"
+            },
+            "work-card-8-list-7": {
+                ru: "Оптимизация загрузки изображений (lazy loading)",
+                en: "Optimize image loading (lazy loading)"
+            },
+            "work-card-8-link": {
+                ru: "Перейти на сайт",
+                en: "Go live"
+            },
             "work-card-7-title": {
                 ru: 'Верстка главной страницы интернет магазина парфюмерии "Perfume Shop"',
                 en: 'Layout of the main page for the online perfume shop "Perfume Shop"'
