@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230517210906">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230530205019">
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
@@ -16,15 +16,14 @@
 <body>
 	<div class="wrapper">
 
-		<header data-watch data-watch-once class="header">
+		<header data-aos="fade-down" data-aos-delay="1200" class="header">
 			<div class="header__container">
 				<div class="header__menu menu">
-					<!-- <button type="button" class="menu__icon icon-menu"><span></span></button> -->
 					<div class="menu__lang toggle">
-						<a href="#" id="lang" class="toggle__link">
+						<button type="button" id="lang" class="toggle__link">
 							<span data-lang="en" class="toggle__item">eng</span>
 							<span data-lang="ru" class="toggle__item">рус</span>
-						</a>
+						</button>
 					</div>
 					<nav class="menu__body">
 						<ul class="menu__list">
@@ -34,23 +33,23 @@
 						</ul>
 					</nav>
 					<div class="menu__theme toggle">
-						<a href="#" id="theme" class="toggle__link">
+						<button type="button" id="theme" class="toggle__link">
 							<span data-theme="light" class="toggle__item _icon-sun"></span>
 							<span data-theme="dark" class="toggle__item _icon-moon"></span>
-						</a>
+						</button>
 					</div>
 				</div>
 			</div>
 		</header>
 		<main class="page">
 
-			<section data-watch data-watch-once data-fullscreen class="page__hero hero">
+			<section data-fullscreen class="page__hero hero">
 				<div class="hero__container">
 					<div class="hero__top">
-						<h1 class="hero__title"><span data-lang="hero-title">Hello! My name is</span> <span data-lang="hero-name" class="bold">Artem Petrovskiy</span></h1>
-						<h3 data-lang="hero-subtitle" class="hero__subtitle">I do website design, Front-end and web application development</h3>
+						<h1 data-aos="fade-up" class="hero__title" id="name" data-lang="hero-title">Hello! My name is Artem Petrovskiy</h1>
+						<h3 data-aos="fade-up" data-aos-delay="400" data-lang="hero-subtitle" class="hero__subtitle">I do website design, Front-end and web application development</h3>
 					</div>
-					<div class="hero__bottom">
+					<div data-aos="fade-up" data-aos-delay="1200" class="hero__bottom">
 						<div class="hero__contacts contacts">
 							<ul class="contacts__list">
 								<li class="contacts__item">
@@ -65,25 +64,25 @@
 							</ul>
 						</div>
 					</div>
-					<div class="hero__action-down"><a href="#" data-goto=".works" class="hero__arrow"><span class="hero__arrow-icon _icon-arrow"></span></a></div>
+					<div class="hero__action-down"><a data-aos="zoom-in" data-aos-delay="1600" data-aos-anchor-placement="top-bottom" href="#" data-goto=".works" class="hero__arrow"><span class="hero__arrow-icon _icon-arrow"></span></a></div>
 				</div>
 			</section>
 
 			<section class="page__works works">
-				<div data-watch data-watch-once class="works__container">
+				<div class="works__container">
 					<div class="works__top top">
-						<h2 class="works__title title" data-lang="works-title">My works</h2>
-						<div class="works__navigation">
-							<button type="button" class="works__button-prev _icon-arrow tile-mini"></button>
-							<button type="button" class="works__button-next _icon-arrow tile-mini"></button>
+						<h2 data-aos="fade-up" class="works__title title" data-lang="works-title">My works</h2>
+						<div data-aos="fade-up" class="works__navigation">
+							<button type="button" aria-label="action button" class="works__button-prev _icon-arrow tile-mini"></button>
+							<button type="button" aria-label="action button" class="works__button-next _icon-arrow tile-mini"></button>
 						</div>
 					</div>
-					<div class="works__samples samples">
+					<div data-aos="fade-up" class="works__samples samples">
 						<div class="samples__slider swiper">
 							<div class="samples__wrapper swiper-wrapper">
 
 								<div class="samples__slide slide-sample swiper-slide">
-									<a href="https://mostehviveska.ru/" target="_blank" class="slide-sample__image-ibg preloader"><picture><source data-srcset="img/works/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/works/01.png" alt=""></picture></a>
+									<a href="https://mostehviveska.ru/" target="_blank" class="slide-sample__image-ibg "><picture><source data-srcset="img/works/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/works/01.png" alt="Mostehviveska logotype"></picture></a>
 									<a href="https://mostehviveska.ru/" target="_blank" class="slide-sample__title" data-lang="work-card-6-title">Development of a
 										multi-page website for the advertising and
 										production company "Mostehviveska"</a>
@@ -102,7 +101,22 @@
 								</div>
 
 								<div class="samples__slide slide-sample swiper-slide">
-									<a href="https://underwhot.github.io/SushiDream/" target="_blank" class="slide-sample__image-ibg preloader"><picture><source data-srcset="img/works/08.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/works/08.png" alt=""></picture></a>
+									<a href="https://underwhot.github.io/VRNas/" target="_blank" class="slide-sample__image-ibg "><picture><source data-srcset="img/works/09.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/works/09.png" alt="VRNas logotype"></picture></a>
+									<a href="https://underwhot.github.io/VRNas/" target="_blank" class="slide-sample__title" data-lang="work-card-9-title">Home page layout of Virtual Reality events service "VRNas"</a>
+									<ul class="slide-sample__list">
+										<li class="slide-sample__item" data-lang="work-card-9-list-1">Two-level menu</li>
+										<li class="slide-sample__item" data-lang="work-card-9-list-2">Non-standard grid layout of elements</li>
+										<li class="slide-sample__item" data-lang="work-card-9-list-3">Interactive link cards that transform into spoilers on mobile devices</li>
+										<li class="slide-sample__item" data-lang="work-card-9-list-4">Interactive block with customer feedback</li>
+										<li class="slide-sample__item" data-lang="work-card-9-list-5">Slider and custom scroll bar</li>
+										<li class="slide-sample__item" data-lang="work-card-9-list-6">Animation and mobile adaptation</li>
+										<li class="slide-sample__item" data-lang="work-card-9-list-7">Optimize image loading (lazy loading)</li>
+									</ul>
+									<a href="https://underwhot.github.io/VRNas/" target="_blank" class="slide-sample__link _icon-arrow" data-lang="work-card-9-link">Go live</a>
+								</div>
+
+								<div class="samples__slide slide-sample swiper-slide">
+									<a href="https://underwhot.github.io/SushiDream/" target="_blank" class="slide-sample__image-ibg "><picture><source data-srcset="img/works/08.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/works/08.png" alt="Sushi Dream logotype"></picture></a>
 									<a href="https://underwhot.github.io/SushiDream/" target="_blank" class="slide-sample__title" data-lang="work-card-8-title">Home page layout of japanese cuisine restaurant "Sushi Dream"</a>
 									<ul class="slide-sample__list">
 										<li class="slide-sample__item" data-lang="work-card-8-list-1">Interactive side menu</li>
@@ -117,7 +131,7 @@
 								</div>
 
 								<div class="samples__slide slide-sample swiper-slide">
-									<a href="https://underwhot.github.io/PerfumeShop/" target="_blank" class="slide-sample__image-ibg preloader"><picture><source data-srcset="img/works/07.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/works/07.png" alt=""></picture></a>
+									<a href="https://underwhot.github.io/PerfumeShop/" target="_blank" class="slide-sample__image-ibg "><picture><source data-srcset="img/works/07.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/works/07.png" alt="Perfume Shop logotype"></picture></a>
 									<a href="https://underwhot.github.io/PerfumeShop/" target="_blank" class="slide-sample__title" data-lang="work-card-7-title">Layout of the main page for the online perfume shop "Perfume Shop"</a>
 									<ul class="slide-sample__list">
 										<li class="slide-sample__item" data-lang="work-card-7-list-1">Two-level site menu</li>
@@ -133,7 +147,7 @@
 								</div>
 
 								<div class="samples__slide slide-sample swiper-slide">
-									<a href="https://underwhot.github.io/welbex/" target="_blank" class="slide-sample__image-ibg preloader"><picture><source data-srcset="img/works/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/works/02.png" alt=""></picture></a>
+									<a href="https://underwhot.github.io/welbex/" target="_blank" class="slide-sample__image-ibg "><picture><source data-srcset="img/works/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/works/02.png" alt="WELBEX logotype"></picture></a>
 									<a href="https://underwhot.github.io/welbex/" target="_blank" class="slide-sample__title" data-lang="work-card-5-title">Landing page
 										layout for a AmoCRM integrator company
 										"WELBEX"</a>
@@ -151,7 +165,7 @@
 								</div>
 
 								<div class="samples__slide slide-sample swiper-slide">
-									<a href="https://underwhot.github.io/teplodom/" target="_blank" class="slide-sample__image-ibg preloader"><picture><source data-srcset="img/works/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/works/03.png" alt=""></picture></a>
+									<a href="https://underwhot.github.io/teplodom/" target="_blank" class="slide-sample__image-ibg "><picture><source data-srcset="img/works/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/works/03.png" alt="Teplodom logotype"></picture></a>
 									<a href="https://underwhot.github.io/teplodom/" target="_blank" class="slide-sample__title" data-lang="work-card-4-title">Landing
 										page layout for a plumbing company "Teplodom"</a>
 									<ul class="slide-sample__list">
@@ -166,12 +180,12 @@
 								</div>
 
 								<div class="samples__slide slide-sample swiper-slide">
-									<a href="https://underwhot.github.io/lenpelmen/" target="_blank" class="slide-sample__image-ibg preloader"><picture><source data-srcset="img/works/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/works/04.png" alt=""></picture></a>
+									<a href="https://underwhot.github.io/lenpelmen/" target="_blank" class="slide-sample__image-ibg "><picture><source data-srcset="img/works/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/works/04.png" alt="Len Pelmen logotype"></picture></a>
 									<a href="https://underwhot.github.io/lenpelmen/" target="_blank" class="slide-sample__title" data-lang="work-card-3-title">Layout of
 										the home-page of the dumplings manufacturer "Len
 										Pelmen"</a>
 									<ul class="slide-sample__list">
-										<li class="slide-sample__item" data-lang="work-card-3-list-1">Preloader 'til the site is fully loaded</li>
+										<li class="slide-sample__item" data-lang="work-card-3-list-1"> 'til the site is fully loaded</li>
 										<li class="slide-sample__item" data-lang="work-card-3-list-2">Animation and mobile adaptation</li>
 										<li class="slide-sample__item" data-lang="work-card-3-list-3">Implemented interactive elements of the hover action</li>
 										<li class="slide-sample__item" data-lang="work-card-3-list-4">Animated image movement when scrolling the page</li>
@@ -182,7 +196,7 @@
 								</div>
 
 								<div class="samples__slide slide-sample swiper-slide">
-									<a href="https://underwhot.github.io/psychoart/" target="_blank" class="slide-sample__image-ibg preloader"><picture><source data-srcset="img/works/05.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/works/05.png" alt=""></picture></a>
+									<a href="https://underwhot.github.io/psychoart/" target="_blank" class="slide-sample__image-ibg "><picture><source data-srcset="img/works/05.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/works/05.png" alt="PsychoArt logotype"></picture></a>
 									<a href="https://underwhot.github.io/psychoart/" target="_blank" class="slide-sample__title" data-lang="work-card-2-title">Landing
 										page layout for the NFT marketplace "PsychoArt"</a>
 									<ul class="slide-sample__list">
@@ -198,12 +212,12 @@
 								</div>
 
 								<div class="samples__slide slide-sample swiper-slide">
-									<a href="https://underwhot.github.io/aibolit/" target="_blank" class="slide-sample__image-ibg preloader"><picture><source data-srcset="img/works/06.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/works/06.png" alt=""></picture></a>
+									<a href="https://underwhot.github.io/aibolit/" target="_blank" class="slide-sample__image-ibg "><picture><source data-srcset="img/works/06.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/works/06.png" alt="Aibolit logotype"></picture></a>
 									<a href="https://underwhot.github.io/aibolit/" target="_blank" class="slide-sample__title" data-lang="work-card-1-title">Layout of
 										the home-page for the veterinary clinic
 										"Aibolit"</a>
 									<ul class="slide-sample__list">
-										<li class="slide-sample__item" data-lang="work-card-1-list-1">Preloader 'til the site is fully loaded</li>
+										<li class="slide-sample__item" data-lang="work-card-1-list-1"> 'til the site is fully loaded</li>
 										<li class="slide-sample__item" data-lang="work-card-1-list-2">Animation and mobile adaptation</li>
 										<li class="slide-sample__item" data-lang="work-card-1-list-3">Animated counter</li>
 										<li class="slide-sample__item" data-lang="work-card-1-list-4">Show more" and "Hide" buttons</li>
@@ -221,12 +235,12 @@
 			</section>
 
 			<section class="page__about about">
-				<div data-watch data-watch-once class="about__container">
+				<div class="about__container">
 					<div class="about__top top">
-						<h2 class="about__title title" data-lang="about-title">About me</h2>
+						<h2 data-aos="fade-up" class="about__title title" data-lang="about-title">About me</h2>
 					</div>
-					<div class="about__body">
-						<div class="about__image-ibg preloader"><picture><source data-srcset="img/about/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/about/01.jpg" alt=""></picture></div>
+					<div data-aos="fade-up" class="about__body">
+						<div class="about__image-ibg "><picture><source data-srcset="img/about/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/about/01.jpg" alt="Photo of Artem Petrovskiy"></picture></div>
 						<div class="about__content">
 							<div class="about__text">
 								<p data-lang="about-p-1">So, you already know that my name is Artem.</p>
@@ -241,34 +255,50 @@
 							</ul>
 						</div>
 					</div>
+					<div data-aos="fade-up" class="about__achievements achievements">
+						<div class="achievements__achievement achievement">
+							<div class="achievement__body">
+								<div class="achievement__column">
+									<div class="achievement__text">
+										<span data-lang="achievement-text-1">Project participant</span>
+										<a href="https://verstaem.online/people/artem_petrovskyi/" target="_blank" class="achievement__logotype"><img src="img/about/achievement/logo_vo.svg" alt="verstaem.online logotype"></a>
+										<span data-lang="achievement-text-2">as an expert in developing preview layouts</span>
+									</div>
+								</div>
+								<div class="achievement__column">
+									<a href="https://verstaem.online/people/artem_petrovskyi/" target="_blank" class="achievement__link _icon-arrow" data-lang="achievement-link">Go to the project site</a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
 
 			<section class="page__skills skills">
-				<div data-watch data-watch-once class="skills__container">
+				<div class="skills__container">
 					<div class="skills__top top">
-						<h2 class="skills__title title" data-lang="skills-title">My skills</h2>
+						<h2 data-aos="fade-up" class="skills__title title" data-lang="skills-title">My skills</h2>
 					</div>
 					<div class="skills__body">
 						<div class="skills__column">
-							<h4 class="skills__subtitle" data-lang="skills-development">For development:</h4>
+							<h3 data-aos="fade-up" class="skills__subtitle" data-lang="skills-development">For development:</h3>
 							<ul class="skills__list">
-								<li class="skills__item"><span class="skills__skill tile _icon-html5">HTML</span></li>
-								<li class="skills__item"><span class="skills__skill tile _icon-css3">CSS</span></li>
-								<li class="skills__item"><span class="skills__skill tile _icon-sass">SASS & SCSS</span></li>
-								<li class="skills__item"><span class="skills__skill tile _icon-javascript">JavaScript</span></li>
-								<li class="skills__item"><span class="skills__skill tile _icon-php">PHP</span></li>
-								<li class="skills__item"><span class="skills__skill tile _icon-wordpress">WordPress</span></li>
-								<li class="skills__item"><span class="skills__skill tile _icon-git">Git & Github</span></li>
+								<li class="skills__item"><span data-aos="fade-up" class="skills__skill tile _icon-html5">HTML</span></li>
+								<li class="skills__item"><span data-aos="fade-up" class="skills__skill tile _icon-css3">CSS</span></li>
+								<li class="skills__item"><span data-aos="fade-up" class="skills__skill tile _icon-sass">SASS & SCSS</span></li>
+								<li class="skills__item"><span data-aos="fade-up" class="skills__skill tile _icon-javascript">JavaScript</span></li>
+								<li class="skills__item"><span data-aos="fade-up" class="skills__skill tile _icon-php">PHP</span></li>
+								<li class="skills__item"><span data-aos="fade-up" class="skills__skill tile _icon-wordpress">WordPress</span></li>
+								<li class="skills__item"><span data-aos="fade-up" class="skills__skill tile _icon-git">Git & Github</span></li>
 							</ul>
 						</div>
 						<div class="skills__column">
-							<h4 class="skills__subtitle" data-lang="skills-disign">For design:</h4>
+							<h3 data-aos="fade-up" class="skills__subtitle" data-lang="skills-disign">For design:</h3>
 							<ul class="skills__list">
-								<li class="skills__item"><span class="skills__skill tile _icon-figma">Figma</span></li>
-								<li class="skills__item"><span class="skills__skill tile _icon-photoshop">Photoshop</span></li>
-								<li class="skills__item"><span class="skills__skill tile _icon-illustrator">Illustrator</span></li>
-								<li class="skills__item"><span class="skills__skill tile _icon-coreldraw">CorelDraw</span></li>
+								<li class="skills__item"><span data-aos="fade-up" class="skills__skill tile _icon-figma">Figma</span></li>
+								<li class="skills__item"><span data-aos="fade-up" class="skills__skill tile _icon-photoshop">Photoshop</span></li>
+								<li class="skills__item"><span data-aos="fade-up" class="skills__skill tile _icon-illustrator">Illustrator</span></li>
+								<li class="skills__item"><span data-aos="fade-up" class="skills__skill tile _icon-coreldraw">CorelDraw</span></li>
 							</ul>
 						</div>
 					</div>
@@ -276,13 +306,13 @@
 			</section>
 
 		</main>
-		<footer class="footer">
-			<div data-watch data-watch-once class="footer__container">
+		<footer data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="footer">
+			<div class="footer__container">
 				<div class="footer__body">
 					<div class="footer__column">
-						<div class="footer__text tile">
-							<p data-lang="footer-copy">© 2023 All information on this site is copyrighted. Copying, using or distributing information without the written permission of the copyright holder is prohibited. All trademarks, service marks and logos used on this site are the property of their owners and use without their consent is prohibited.</p>
-						</div>
+						<p data-lang="footer-copy" class="footer__text tile">
+							© 2023 All information on this site is copyrighted. Copying, using or distributing information without the written permission of the copyright holder is prohibited. All trademarks, service marks and logos used on this site are the property of their owners and use without their consent is prohibited.
+						</p>
 					</div>
 					<div class="footer__column">
 						<a href="#" data-goto=".hero" class="footer__arrow-up tile _icon-arrow" data-lang="footer-up">Go to top</a>
@@ -294,7 +324,7 @@
 		<div id="blob"></div>
 		<div id="blur"></div>
 	</div>
-	<script src="js/app.min.js?_v=20230517210906"></script>
+	<script src="js/app.min.js?_v=20230530205019"></script>
 </body>
 
 </html>
