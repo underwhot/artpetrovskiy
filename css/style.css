@@ -2350,7 +2350,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 0.9375rem;
+  gap: 1.25rem;
 }
 
 .works__top {
@@ -2441,6 +2441,10 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 
 .slide-sample__title {
   margin-bottom: 1.25rem;
+}
+
+.slide-sample__list-title {
+  margin-bottom: 0.625rem;
 }
 
 .slide-sample__list {
@@ -2776,6 +2780,10 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     gap: 0.9375rem;
   }
 
+  .contacts__list {
+    gap: 0.9375rem;
+  }
+
   .about__body {
     padding: 1.875rem;
     gap: 1.875rem;
@@ -2788,6 +2796,15 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 
   .skills__body {
     gap: 2.5rem;
+  }
+
+  .skills__list {
+    margin: 0 -0.46875rem -0.9375rem;
+  }
+
+  .skills__item {
+    margin-bottom: 0.9375rem;
+    padding: 0 0.46875rem;
   }
 }
 
@@ -2806,16 +2823,10 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     padding: 1.875rem 0.9375rem;
   }
 
-  .skills__list {
-    margin: 0 -0.46875rem -0.9375rem;
-  }
-
   .skills__item {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 50%;
             flex: 0 1 50%;
-    margin-bottom: 0.9375rem;
-    padding: 0 0.46875rem;
   }
 }
 
@@ -3012,7 +3023,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   }
 
   .slide-sample__item::before {
-    top: 0.5rem;
+    top: 0.5625rem;
   }
 
   .slide-sample__item:not(:last-child) {

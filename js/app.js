@@ -4079,9 +4079,10 @@
                 modules: [ Navigation ],
                 observer: true,
                 observeParents: true,
-                slidesPerView: 2.7,
+                slidesPerView: 2.5,
                 spaceBetween: 20,
                 speed: 800,
+                grabCursor: true,
                 navigation: {
                     prevEl: ".works__button-prev",
                     nextEl: ".works__button-next"
@@ -4089,7 +4090,7 @@
                 breakpoints: {
                     320: {
                         spaceBetween: 15,
-                        slidesPerView: 1.2
+                        slidesPerView: 1.1
                     },
                     479: {
                         spaceBetween: 15,
@@ -4105,11 +4106,11 @@
                     },
                     992: {
                         spaceBetween: 15,
-                        slidesPerView: 2.7
+                        slidesPerView: 2.5
                     },
                     1200: {
                         spaceBetween: 20,
-                        slidesPerView: 2.7
+                        slidesPerView: 2.5
                     }
                 },
                 on: {}
@@ -4206,37 +4207,57 @@
                 ru: "Мои работы",
                 en: "My works"
             },
+            "work-card-10-title": {
+                ru: 'Верстка главной страницы магазина одежды и аксессуаров "CORAL"',
+                en: 'Layout main page of the clothing and accessories store "CORAL"'
+            },
+            "work-card-10-list-1": {
+                ru: "Фильтрация товаров по типу",
+                en: "Filtering of products by type"
+            },
+            "work-card-10-list-2": {
+                ru: "Сортировка товаров по возростанию и убыванию",
+                en: "Sort products in ascending and descending order"
+            },
+            "work-card-10-list-3": {
+                ru: "Частично фиксированное меню",
+                en: "Partially sticky menu"
+            },
+            "work-card-10-list-4": {
+                ru: "Скрытая форма поиска с активанией по клику",
+                en: "Hidden search form with click-activation"
+            },
+            "work-card-10-list-5": {
+                ru: "Анимация и мобильная адаптация",
+                en: "Animation and mobile adaptation"
+            },
+            "work-card-10-link": {
+                ru: "Перейти на сайт",
+                en: "Go live"
+            },
             "work-card-9-title": {
                 ru: 'Верстка главной страницы сервиса мероприятий виртуальной реальности "VRNas"',
                 en: 'Home page layout of Virtual Reality events service "VRNas"'
             },
             "work-card-9-list-1": {
-                ru: "Двухуровневое меню",
-                en: "Two-level menu"
-            },
-            "work-card-9-list-2": {
                 ru: "Нестандартная сетка расположения элеметов",
                 en: "Non-standard grid layout of elements"
             },
-            "work-card-9-list-3": {
+            "work-card-9-list-2": {
                 ru: "Интерактивные карточки-ссылки, которые трансформируются в спойлеры на мобильных устройствах",
                 en: "Interactive link cards that transform into spoilers on mobile devices"
             },
-            "work-card-9-list-4": {
+            "work-card-9-list-3": {
                 ru: "Интерактивный блок с отзывами клиентов",
-                en: "Interactive block with customer feedback"
+                en: "Interactive block with customers feedback"
             },
-            "work-card-9-list-5": {
+            "work-card-9-list-4": {
                 ru: "Слайдер и кастомный скролл-бар",
                 en: "Slider and custom scroll bar"
             },
-            "work-card-9-list-6": {
+            "work-card-9-list-5": {
                 ru: "Анимация и мобильная адаптация",
                 en: "Animation and mobile adaptation"
-            },
-            "work-card-9-list-7": {
-                ru: "Оптимизация загрузки изображений (lazy loading)",
-                en: "Optimize image loading (lazy loading)"
             },
             "work-card-9-link": {
                 ru: "Перейти на сайт",
@@ -4247,32 +4268,24 @@
                 en: 'Home page layout of japanese cuisine restaurant "Sushi Dream"'
             },
             "work-card-8-list-1": {
-                ru: "Интерактивное боковое меню",
-                en: "Interactive side menu"
-            },
-            "work-card-8-list-2": {
-                ru: "Выпадающий список номеров и выбора языка",
-                en: "Drop-down list of numbers and language selection"
-            },
-            "work-card-8-list-3": {
                 ru: "Нестандартная сетка расположения элеметов",
                 en: "Non-standard grid layout of elements"
             },
+            "work-card-8-list-2": {
+                ru: "Интерактивное боковое меню",
+                en: "Interactive side menu"
+            },
+            "work-card-8-list-3": {
+                ru: "Выпадающий список номеров и выбора языка",
+                en: "Drop-down list of numbers and language selection"
+            },
             "work-card-8-list-4": {
-                ru: "Карусель с карточками товаров",
-                en: "Carousel with product cards"
+                ru: "Слайдер с карточками товаров",
+                en: "Slider with product cards"
             },
             "work-card-8-list-5": {
                 ru: "Анимация и мобильная адаптация",
                 en: "Animation and mobile adaptation"
-            },
-            "work-card-8-list-6": {
-                ru: "Анимация радиуса доставки на карте",
-                en: "Delivery radius animation on the map"
-            },
-            "work-card-8-list-7": {
-                ru: "Оптимизация загрузки изображений (lazy loading)",
-                en: "Optimize image loading (lazy loading)"
             },
             "work-card-8-link": {
                 ru: "Перейти на сайт",
@@ -4287,72 +4300,56 @@
                 en: "Two-level site menu"
             },
             "work-card-7-list-2": {
-                ru: "Эффект появления фиксированного подвала сайта",
-                en: "Fixed footer reveal effect"
-            },
-            "work-card-7-list-3": {
-                ru: "Анимация и мобильная адаптация",
-                en: "Animation and mobile adaptation"
-            },
-            "work-card-7-list-4": {
-                ru: "Карусель с карточками товаров",
-                en: "Carousel with product cards"
-            },
-            "work-card-7-list-5": {
-                ru: "Возможность выбора языка и валюты",
-                en: "Language and currency selection option"
-            },
-            "work-card-7-list-6": {
                 ru: "Адаптивные спойлеры в подвале сайта в мобильной верии",
                 en: "Adaptive spoilers in the footer of the site in mobile version"
             },
-            "work-card-7-list-7": {
-                ru: "Скрытие шапки сайта при скролле страницы",
-                en: "Hiding the header when the page is scrolling"
+            "work-card-7-list-3": {
+                ru: "Возможность выбора языка и валюты",
+                en: "Language and currency selection option"
             },
-            "work-card-7-list-8": {
-                ru: "Оптимизация загрузки изображений (lazy loading)",
-                en: "Optimize image loading (lazy loading)"
+            "work-card-7-list-4": {
+                ru: "Слайдер с карточками товаров",
+                en: "Slider with product cards"
+            },
+            "work-card-7-list-5": {
+                ru: "Анимация и мобильная адаптация",
+                en: "Animation and mobile adaptation"
             },
             "work-card-7-link": {
                 ru: "Перейти на сайт",
                 en: "Go live"
             },
             "work-card-6-title": {
-                ru: 'Разработка многостраничного сайта для реклмно-производственной компании "МосТехВывеска"',
-                en: 'Development of a multi-page website for the advertising and production company "Mostehviveska"'
+                ru: 'Разработка многостраничного сайта для рекламно-производственной компании "МосТехВывеска"',
+                en: 'Development a multi-page website for the production company "Mostehviveska"'
             },
             "work-card-6-list-1": {
                 ru: "Разработка дизайна",
                 en: "Design development"
             },
             "work-card-6-list-2": {
-                ru: "Анимация и мобильная адаптация",
-                en: "Animation and mobile adaptation"
-            },
-            "work-card-6-list-3": {
                 ru: "Реализованы табы с видами услуг",
                 en: "Tabs with service types"
             },
-            "work-card-6-list-4": {
-                ru: "Карусель и галерея изображений",
-                en: "Carousel and images gallery"
+            "work-card-6-list-3": {
+                ru: "Слайдер и галерея изображений",
+                en: "Slider and images gallery"
             },
-            "work-card-6-list-5": {
+            "work-card-6-list-4": {
                 ru: "Формы отбратной связи и заявки",
                 en: "Feedback and request forms"
             },
-            "work-card-6-list-6": {
+            "work-card-6-list-5": {
                 ru: "Всплывающе модальные окна (pop-up) c элементами форм",
                 en: "Modal window (pop-up) with form elements"
             },
-            "work-card-6-list-7": {
-                ru: "Оптимизация загрузки изображений (lazy loading)",
-                en: "Optimize image loading (lazy loading)"
+            "work-card-6-list-6": {
+                ru: "Анимация и мобильная адаптация",
+                en: "Animation and mobile adaptation"
             },
-            "work-card-6-list-8": {
-                ru: "Посадка на CMS WordPress для редактирования и добавления контента",
-                en: "Landing on CMS WordPress to add and edit content"
+            "work-card-6-list-7": {
+                ru: "Посадка на CMS WordPress",
+                en: "Landing on CMS WordPress"
             },
             "work-card-6-link": {
                 ru: "Перейти на сайт",
@@ -4371,32 +4368,20 @@
                 en: "Long landing page with a non-standard grid arrangement of elements"
             },
             "work-card-5-list-2": {
-                ru: "Анимация и мобильная адаптация",
-                en: "Animation and mobile adaptation"
-            },
-            "work-card-5-list-3": {
-                ru: "Навигация по странице",
-                en: "Page navigation"
-            },
-            "work-card-5-list-4": {
-                ru: "Обычные формы обратной связи и с возможностью выбора ответов",
-                en: "Regular feedback forms and with a choice of answers"
-            },
-            "work-card-5-list-5": {
                 ru: "Табы переключения видов виджетов",
                 en: "Tabs for switching widget views"
             },
-            "work-card-5-list-6": {
+            "work-card-5-list-3": {
+                ru: "Обычные формы обратной связи и с возможностью выбора ответов",
+                en: "Regular feedback forms and with a choice of answers"
+            },
+            "work-card-5-list-4": {
                 ru: "Карточки с анимацией появления действия при наведении курсора",
                 en: "Cards with appearance animation of the hover action"
             },
-            "work-card-5-list-7": {
-                ru: "Реализованы интерактивные элементы при движении курсора",
-                en: "Implemented interactive elements of the hover action"
-            },
-            "work-card-5-list-8": {
-                ru: "Оптимизация загрузки изображений (lazy loading)",
-                en: "Optimize image loading (lazy loading)"
+            "work-card-5-list-5": {
+                ru: "Анимация и мобильная адаптация",
+                en: "Animation and mobile adaptation"
             },
             "work-card-5-link": {
                 ru: "Перейти на сайт",
@@ -4407,8 +4392,8 @@
                 en: 'Landing page layout for a plumbing company "Teplodom"'
             },
             "work-card-4-list-1": {
-                ru: "Анимация и мобильная адаптация",
-                en: "Animation and mobile adaptation"
+                ru: "Интерактивный выбор сотрудников",
+                en: "Interactive employees selection"
             },
             "work-card-4-list-2": {
                 ru: "Навигация по странице",
@@ -4423,12 +4408,8 @@
                 en: "Image slider on project cards"
             },
             "work-card-4-list-5": {
-                ru: "Интерактивный выбор сотрудников",
-                en: "Interactive employees selection"
-            },
-            "work-card-4-list-6": {
-                ru: "Оптимизация загрузки изображений (lazy loading)",
-                en: "Optimize image loading (lazy loading)"
+                ru: "Анимация и мобильная адаптация",
+                en: "Animation and mobile adaptation"
             },
             "work-card-4-link": {
                 ru: "Перейти на сайт",
@@ -4443,8 +4424,8 @@
                 en: "Preloader 'til the site is fully loaded"
             },
             "work-card-3-list-2": {
-                ru: "Анимация и мобильная адаптация",
-                en: "Animation and mobile adaptation"
+                ru: "Нестандартные слайдеры",
+                en: "Non-standard sliders"
             },
             "work-card-3-list-3": {
                 ru: "Реализованы интерактивные элементы при движении курсора",
@@ -4455,12 +4436,8 @@
                 en: "Animated image movement when scrolling the page"
             },
             "work-card-3-list-5": {
-                ru: "Нестандартные слайдеры",
-                en: "Non-standard sliders"
-            },
-            "work-card-3-list-6": {
-                ru: "Оптимизация загрузки изображений (lazy loading)",
-                en: "Optimize image loading (lazy loading)"
+                ru: "Анимация и мобильная адаптация",
+                en: "Animation and mobile adaptation"
             },
             "work-card-3-link": {
                 ru: "Перейти на сайт",
@@ -4475,8 +4452,8 @@
                 en: "Page navigation"
             },
             "work-card-2-list-2": {
-                ru: "Анимация и мобильная адаптация",
-                en: "Animation and mobile adaptation"
+                ru: "Спойлеры вопросов и ответов",
+                en: "Q&A spoilers"
             },
             "work-card-2-list-3": {
                 ru: "Анимированные счетчики",
@@ -4487,16 +4464,8 @@
                 en: "Tabs for switching NFT collection"
             },
             "work-card-2-list-5": {
-                ru: 'Реализован функционал кнопок "Подписаться"',
-                en: 'Implemented the functionality of the "Subscribe" buttons'
-            },
-            "work-card-2-list-6": {
-                ru: "Спойлеры вопросов и ответов",
-                en: "Q&A spoilers"
-            },
-            "work-card-2-list-7": {
-                ru: "Оптимизация загрузки изображений (lazy loading)",
-                en: "Optimize image loading (lazy loading)"
+                ru: "Анимация и мобильная адаптация",
+                en: "Animation and mobile adaptation"
             },
             "work-card-2-link": {
                 ru: "Перейти на сайт",
@@ -4511,8 +4480,8 @@
                 en: "Preloader 'til the site is fully loaded"
             },
             "work-card-1-list-2": {
-                ru: "Анимация и мобильная адаптация",
-                en: "Animation and mobile adaptation"
+                ru: "Модальное окно (pop-up) выбора города",
+                en: "Modal window (pop-up) for city selection"
             },
             "work-card-1-list-3": {
                 ru: "Анимированный счетчик",
@@ -4523,12 +4492,8 @@
                 en: '"Show more" and "Hide" buttons'
             },
             "work-card-1-list-5": {
-                ru: "Модальное окно (pop-up) выбора города",
-                en: "Modal window (pop-up) for city selection"
-            },
-            "work-card-1-list-6": {
-                ru: "Оптимизация загрузки изображений (lazy loading)",
-                en: "Optimize image loading (lazy loading)"
+                ru: "Анимация и мобильная адаптация",
+                en: "Animation and mobile adaptation"
             },
             "work-card-1-link": {
                 ru: "Перейти на сайт",
