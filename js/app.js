@@ -4467,16 +4467,16 @@
                 en: "About me"
             },
             "about-p-1": {
-                ru: "Итак, Вы уже знаете, что меня зовут Артём.",
-                en: "So, you already know that my name is Artem."
+                ru: "Привет! Я Артём, фронтенд-разработчик из Киева, Украина.",
+                en: "Hi there, I'm Artem, a passionate front-end developer based in Kyiv, Ukraine."
             },
             "about-p-2": {
-                ru: "Мне 29 лет. На данный момент я живу в Киеве, столице Украины. У меня более пяти лет опыта в дизайне и более трех лет в разработке и создании веб-приложений. Почему именно программирование? Все элементарно - мне это нравится. Дизайнерский взгляд позволяет мне создавать красивые интерфейсы, анимации, а технические знания - реализовывать проекты.",
-                en: "I am 29 years old. At the moment I live in Kyiv, the capital of Ukraine. I have more than five years of design experience and more than three years in development and creating web applications. Why programming? All elementary - I like it. The designer's eye allows me to create beautiful interfaces, animations, and technical knowledge - to implement projects."
+                ru: "Имея более чем 5-летний опыт работы в сфере дизайна и 3-летний опыт создания сайтов и веб-приложений, я отточил свои навыки в создании идеальных интерфейсов и воплощаю их в жизнь с помощью чистого, производительного кода. Я хорошо знаю HTML, SCSS, CSS-фреймворки, такие как Tailwind, JavaScript, TypeScript, React, Redux, и мне нравится создавать интерактивные фишки, которые улучшают пользовательский опыт.",
+                en: "With over 5 years of design experience and 3 years building web applications, I've honed my skills in crafting pixel-perfect interfaces and bringing them to life through clean, performant code. I'm proficient in HTML, SCSS, CSS frameworks like Tailwind, JavaScript, TypeScript, React, Redux and I love building interactive features that enhance user experience."
             },
             "about-p-3": {
-                ru: "Пишите мне в мессенджере или по почте. Буду рад любому обращению по этой теме. До связи!",
-                en: "Write to me in messenger or by mail. I will be glad to receive any feedback on the subject. Talk to you soon!"
+                ru: "Посмотрите мои работы из портфолио, чтобы увидеть некоторые из моих недавних проектов. Я всегда готов учиться и сотрудничать, так что давайте общаться в Telegram или пишите мне на e-mail. До скорой связи!",
+                en: "Check out my works to see some of my recent projects. I'm always eager to learn and collaborate, so let's connect on Telegram or drop me a line at e-mail. Looking forward to hearing from you!"
             },
             "achievement-text-1": {
                 ru: "Участник проекта",
