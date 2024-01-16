@@ -4044,8 +4044,7 @@
         var lazyload_min = __webpack_require__(732);
         new lazyload_min({
             elements_selector: "[data-src],[data-srcset]",
-            class_loaded: "_lazy-loaded",
-            use_native: true
+            class_loaded: "_lazy-loaded"
         });
         let addWindowScrollEvent = false;
         function pageNavigation() {
@@ -4503,8 +4502,8 @@
                 en: "For design:"
             },
             "footer-copy": {
-                ru: "© 2023 Все права защищены. Вся информация, размещенная на этом сайте, является объектом авторского права. Копирование, использование или распространение информации без письменного разрешения правообладателя запрещено. Все товарные знаки, знаки обслуживания и логотипы, используемые на этом сайте, являются собственностью их владельцев и использование без их согласия запрещено.",
-                en: "© 2023 All information on this site is copyrighted. Copying, using or distributing information without the written permission of the copyright holder is prohibited. All trademarks, service marks and logos used on this site are the property of their owners and use without their consent is prohibited."
+                ru: "© 2024 Все права защищены. Вся информация, размещенная на этом сайте, является объектом авторского права. Копирование, использование или распространение информации без письменного разрешения правообладателя запрещено. Все товарные знаки, знаки обслуживания и логотипы, используемые на этом сайте, являются собственностью их владельцев и использование без их согласия запрещено.",
+                en: "© 2024 All information on this site is copyrighted. Copying, using or distributing information without the written permission of the copyright holder is prohibited. All trademarks, service marks and logos used on this site are the property of their owners and use without their consent is prohibited."
             },
             "footer-up": {
                 ru: "Наверх",
