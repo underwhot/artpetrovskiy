@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240123205646">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240214220429">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,7 +53,6 @@
 					<div data-aos="fade-up" data-aos-delay="1200" class="hero__bottom">
 						<div class="hero__contacts contacts">
 							<ul class="contacts__list">
-
 								<li class="contacts__item">
 									<a href="https://t.me/artpetrovskiy" target="_blank" class="contacts__link _icon-telegram tile">artpetrovskiy</a>
 								</li>
@@ -63,11 +62,9 @@
 								<li class="contacts__item">
 									<a href="https://www.linkedin.com/in/artpetrovskyi/" target="_blank" class="contacts__link _icon-linkedin tile">artpetrovskyi</a>
 								</li>
-
 								<li class="contacts__item">
 									<a href="https://github.com/underwhot" target="_blank" class="contacts__link _icon-github tile">underwhot</a>
 								</li>
-
 							</ul>
 						</div>
 					</div>
@@ -288,13 +285,12 @@
 						<div class="about__image-ibg "><picture><source data-srcset="img/about/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/about/01.jpg" alt="Photo of Artem Petrovskiy"></picture></div>
 						<div class="about__content">
 							<div class="about__text">
-								<p data-lang="about-p-1">Hi there, I'm Artem, a passionate front-end developer based in Kyiv, Ukraine.
+								<p data-lang="about-p-1">Hi there, I'm Artem, a passionate front-end developer.
 								</p>
-								<p data-lang="about-p-2">With over 5 years of design experience and 3 years building web applications,
-									I've honed my skills in
-									crafting pixel-perfect interfaces and bringing them to life through clean, performant code. I'm
-									proficient in HTML, SCSS, CSS frameworks like Tailwind, JavaScript, TypeScript, React, Redux and I
-									love building interactive features that enhance user experience.</p>
+								<p data-lang="about-p-2">I've honed my skills in crafting pixel-perfect interfaces and bringing them to
+									life through clean, performant code. I'm proficient in HTML, CSS, SASS & SCSS, CSS frameworks like
+									Tailwind, JavaScript, TypeScript, React, Redux Toolkit and I love building interactive features that
+									enhance user experience.</p>
 								<p data-lang="about-p-3">Check out my works to see some of my recent projects. I'm always eager to learn
 									and collaborate, so let's connect on Telegram or drop me a line at e-mail. Looking
 									forward to hearing from you!</p>
@@ -383,12 +379,19 @@
 				</div>
 			</div>
 		</footer>
-
-		<!-- <div id="blob"></div> -->
-		<!-- <div id="blur"></div> -->
 	</div>
 
-	<script src="js/app.min.js?_v=20240123205646"></script>
+	<svg class="cursor" width="140" height="140" viewBox="0 0 140 140">
+		<defs>
+			<filter id="cursor-filter" x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox">
+				<feTurbulence type="fractalNoise" seed="1" baseFrequency="0" numOctaves="1" result="warp" />
+				<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="40" in="SourceGraphic" />
+			</filter>
+		</defs>
+		<circle class="cursor__inner" cx="70" cy="70" r="20" />
+	</svg>
+
+	<script src="js/app.min.js?_v=20240214220429"></script>
 </body>
 
 </html>
