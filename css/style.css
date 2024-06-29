@@ -25,47 +25,47 @@
   display: block;
 }
 
-._icon-wordpress:before {
+._icon-arrow:before {
   content: "\e900";
 }
 
-._icon-typescript:before {
+._icon-bootstrap:before {
   content: "\e901";
 }
 
-._icon-telegram:before {
+._icon-coreldraw:before {
   content: "\e902";
 }
 
-._icon-tailwind:before {
+._icon-css3:before {
   content: "\e903";
 }
 
-._icon-sun:before {
+._icon-figma:before {
   content: "\e904";
 }
 
-._icon-sass:before {
+._icon-git:before {
   content: "\e905";
 }
 
-._icon-redux:before {
+._icon-github:before {
   content: "\e906";
 }
 
-._icon-react:before {
+._icon-html5:before {
   content: "\e907";
 }
 
-._icon-photoshop:before {
+._icon-illustrator:before {
   content: "\e908";
 }
 
-._icon-moon:before {
+._icon-instagram:before {
   content: "\e909";
 }
 
-._icon-mail:before {
+._icon-javascript:before {
   content: "\e90a";
 }
 
@@ -73,48 +73,52 @@
   content: "\e90b";
 }
 
-._icon-javascript:before {
+._icon-mail:before {
   content: "\e90c";
 }
 
-._icon-instagram:before {
+._icon-moon:before {
   content: "\e90d";
 }
 
-._icon-illustrator:before {
+._icon-next-js:before {
   content: "\e90e";
 }
 
-._icon-html5:before {
+._icon-photoshop:before {
   content: "\e90f";
 }
 
-._icon-github:before {
+._icon-react:before {
   content: "\e910";
 }
 
-._icon-git:before {
+._icon-redux:before {
   content: "\e911";
 }
 
-._icon-figma:before {
+._icon-sass:before {
   content: "\e912";
 }
 
-._icon-css3:before {
+._icon-sun:before {
   content: "\e913";
 }
 
-._icon-coreldraw:before {
+._icon-tailwind:before {
   content: "\e914";
 }
 
-._icon-bootstrap:before {
+._icon-telegram:before {
   content: "\e915";
 }
 
-._icon-arrow:before {
+._icon-typescript:before {
   content: "\e916";
+}
+
+._icon-wordpress:before {
+  content: "\e917";
 }
 
 * {

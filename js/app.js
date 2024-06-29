@@ -7737,13 +7737,57 @@
                 ru: "Мои работы",
                 en: "My works"
             },
+            "work-card-12-title": {
+                ru: 'Веб-приложение для компании "CasePrint"',
+                en: 'Web application for the company "CasePrint"'
+            },
+            "work-card-12-list-1": {
+                ru: "Одностраничное приложение на Next.js",
+                en: "Next.js single page application"
+            },
+            "work-card-12-list-2": {
+                ru: "Загрузка файлов с помощью перетаскивания",
+                en: "Drag-and-drop file uploads"
+            },
+            "work-card-12-list-3": {
+                ru: "Конфигуратор дизайна чехлов для телефонов",
+                en: "Custom phone case configurator"
+            },
+            "work-card-12-list-4": {
+                ru: "Клиенты могут оплачивать напрямую через Stripe",
+                en: "Customers can purchase directly via Stripe"
+            },
+            "work-card-12-list-5": {
+                ru: "Светлая и темная тема",
+                en: "Light and dark theme"
+            },
+            "work-card-12-list-6": {
+                ru: "Панель администратора для управления заказами",
+                en: "Admin dashboard to manage orders"
+            },
+            "work-card-12-list-7": {
+                ru: "Аутентификация с помощью AuthKit",
+                en: "Authentication using AuthKit"
+            },
+            "work-card-12-list-8": {
+                ru: "Написано на TypeScript",
+                en: "Written in TypeScript"
+            },
+            "work-card-12-list-9": {
+                ru: "Для перехода на Github нажмите здесь",
+                en: "For Github link click here"
+            },
+            "work-card-12-link": {
+                ru: "Перейти на сайт",
+                en: "Go live"
+            },
             "work-card-11-title": {
-                ru: 'Веб-приложение на React для продуктового магазина "Экомаркет"',
-                en: 'React single page application for grocery store "Ecomarket"'
+                ru: 'Веб-приложение для продуктового магазина "Экомаркет"',
+                en: 'Web application for the grocery store "Ecomarket""'
             },
             "work-card-11-list-1": {
-                ru: "Одностраничное приложение на ReactJS",
-                en: "ReactJS single page application"
+                ru: "Одностраничное приложение на React",
+                en: "React single page application"
             },
             "work-card-11-list-2": {
                 ru: "Применен Redux Toolkit",
